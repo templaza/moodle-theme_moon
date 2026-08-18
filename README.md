@@ -38,8 +38,8 @@ Moon is a simple theme for the Moon Framework, designed for Moodle LMS.
 * Moon Framework: 1.0.5 or higher
 
 ## Installation
-1. Download and install the Moon Framework (`local_moon.zip`) from the [GitHub releases page](https://github.com/templaza/moon-framework/releases/latest).
-2. Download the latest release of Theme Moon (`theme_moon.zip`) from the [GitHub releases page](https://github.com/templaza/theme-moon/releases/latest).
+1. Download and install the Moon Framework (`local_moon.zip`) from the [Moon Framework releases page](https://github.com/templaza/moon-framework/releases/latest).
+2. Download the latest release of Theme Moon (`theme_moon.zip`) from the [Theme Moon releases page](https://github.com/templaza/theme-moon/releases/latest).
 3. Go to your Moodle site and navigate to Site administration > Plugins > Install plugins.
 4. Upload the downloaded zip file (`local_moon.zip` and `theme_moon.zip`) and follow the on-screen instructions to complete the installation.
 5. After installation, go to Site administration > Appearance > Themes > Select theme and choose "Moon" as your active theme.
