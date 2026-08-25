@@ -1,6 +1,6 @@
 <?php
 defined('MOODLE_INTERNAL') || die();
-use local_moon\library\Helper\Utilities;
+use local_moon\library\helper\utilities;
 global $CFG;
 $THEME->name = 'moon';
 $THEME->sheets = [];
@@ -13,4 +13,4 @@ $THEME->addblockposition = BLOCK_ADDBLOCK_POSITION_FLATNAV;
 $THEME->scss = function($theme) {
     return theme_moon_get_main_scss_content($theme);
 };
-$THEME->layouts = Utilities::getLayouts($THEME->name);
+$THEME->layouts = utilities::get_layouts($THEME->name);
