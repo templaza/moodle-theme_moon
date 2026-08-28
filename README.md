@@ -1,5 +1,5 @@
-[![Github All Releases](https://img.shields.io/github/downloads/templaza/theme-moon/total.svg)](https://github.com/templaza/theme-moon/releases)
-[![GitHub release](https://img.shields.io/github/release/templaza/theme-moon.svg)](https://github.com/templaza/theme-moon/releases)
+[![Github All Releases](https://img.shields.io/github/downloads/templaza/moodle-theme_moon/total.svg)](https://github.com/templaza/moodle-theme_moon/releases)
+[![GitHub release](https://img.shields.io/github/release/templaza/moodle-theme_moon.svg)](https://github.com/templaza/moodle-theme_moon/releases)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
 # Theme Moon - A Simple and Powerful Moodle Theme for Moon Framework
@@ -38,8 +38,8 @@ Moon is a simple theme for the Moon Framework, designed for Moodle LMS.
 * Moon Framework: 1.0.5 or higher
 
 ## Installation
-1. Download and install the Moon Framework (`local_moon.zip`) from the [Moon Framework releases page](https://github.com/templaza/moon-framework/releases/latest).
-2. Download the latest release of Theme Moon (`theme_moon.zip`) from the [Theme Moon releases page](https://github.com/templaza/theme-moon/releases/latest).
+1. Download and install the Moon Framework (`local_moon.zip`) from the [Moon Framework releases page](https://github.com/templaza/moodle-local_moon/releases/latest).
+2. Download the latest release of Theme Moon (`theme_moon.zip`) from the [Theme Moon releases page](https://github.com/templaza/moodle-theme_moon/releases/latest).
 3. Go to your Moodle site and navigate to Site administration > Plugins > Install plugins.
 4. Upload the downloaded zip file (`local_moon.zip` and `theme_moon.zip`) and follow the on-screen instructions to complete the installation.
 5. After installation, go to Site administration > Appearance > Themes > Select theme and choose "Moon" as your active theme.
