@@ -19,13 +19,22 @@
  * @copyright Copyright (C) 2026 MoonFrame.work.
  * @license https://www.gnu.org/licenses/gpl-3.0.html GNU/GPLv3 or Later
  */
+
+namespace theme_moon\privacy;
+
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->component = 'theme_moon';
-$plugin->version   = 2026082800;
-$plugin->requires  = 2022041900;
-$plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '1.0.0';
-$plugin->dependencies = [
-    'local_moon' => 2026081800,
-];
+class provider implements
+    // This plugin does not store any personal user data.
+    \core_privacy\local\metadata\null_provider {
+
+    /**
+     * Get the language string identifier with the component's language
+     * file to explain why this plugin stores no data.
+     *
+     * @return  string
+     */
+    public static function get_reason(): string {
+        return 'privacy:metadata';
+    }
+}
