@@ -34,7 +34,6 @@ defined('MOODLE_INTERNAL') || die();
  */
 class provider implements
     \core_privacy\local\metadata\null_provider {
-
     /**
      * Returns the language string identifier explaining why no data is stored.
      *
