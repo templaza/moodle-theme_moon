@@ -26,6 +26,9 @@
 
 namespace theme_moon\output;
 
+// phpcs:ignore moodle.Files.MoodleInternal.MoodleInternalNotNeeded
+defined('MOODLE_INTERNAL') || die();
+
 /**
  * Theme-specific core renderer.
  */

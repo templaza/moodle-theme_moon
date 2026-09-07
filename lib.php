@@ -23,6 +23,8 @@
  * @copyright Copyright (C) 2026 MoonFrame.work.
  * @license https://www.gnu.org/licenses/gpl-3.0.html GNU/GPLv3 or Later
  */
+// phpcs:ignore moodle.Files.MoodleInternal.MoodleInternalNotNeeded
+defined('MOODLE_INTERNAL') || die();
 
 use local_moon\library\helper\utilities;
 use local_moon\library\helper\media;

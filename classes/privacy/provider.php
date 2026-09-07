@@ -26,6 +26,9 @@
 
 namespace theme_moon\privacy;
 
+// phpcs:ignore moodle.Files.MoodleInternal.MoodleInternalNotNeeded
+defined('MOODLE_INTERNAL') || die();
+
 /**
  * Declares that this theme stores no personal data.
  */
