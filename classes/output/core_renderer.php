@@ -14,13 +14,23 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 //
+
 /**
+ * Core renderer overrides for theme_moon.
+ *
  * @package   theme_moon
  * @author    Moon Framework Team https://moonframe.work
  * @copyright Copyright (C) 2026 MoonFrame.work.
  * @license https://www.gnu.org/licenses/gpl-3.0.html GNU/GPLv3 or Later
  */
+
 namespace theme_moon\output;
-defined('MOODLE_INTERNAL') || die;
+
+// phpcs:ignore moodle.Files.MoodleInternal.MoodleInternalNotNeeded
+defined('MOODLE_INTERNAL') || die();
+
+/**
+ * Theme-specific core renderer.
+ */
 class core_renderer extends \theme_boost\output\core_renderer {
 }

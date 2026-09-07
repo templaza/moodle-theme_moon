@@ -14,6 +14,7 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 //
+
 /**
  * Theme Moon component file.
  * Default layout proxy for theme_moon.

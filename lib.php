@@ -14,17 +14,24 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 //
+
 /**
- * @package   Theme Moon
+ * Theme library functions for theme_moon.
+ *
+ * @package   theme_moon
  * @author    Moon Framework Team https://moonframe.work
  * @copyright Copyright (C) 2026 MoonFrame.work.
  * @license https://www.gnu.org/licenses/gpl-3.0.html GNU/GPLv3 or Later
  */
+// phpcs:ignore moodle.Files.MoodleInternal.MoodleInternalNotNeeded
 defined('MOODLE_INTERNAL') || die();
+
 use local_moon\library\helper\utilities;
 use local_moon\library\helper\media;
 
 /**
+ * Returns the SCSS content used by the moon theme.
+ *
  * @param theme_config $theme
  * @return string
  */

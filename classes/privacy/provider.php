@@ -14,7 +14,10 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 //
+
 /**
+ * Privacy provider for theme_moon.
+ *
  * @package   theme_moon
  * @author    Moon Framework Team https://moonframe.work
  * @copyright Copyright (C) 2026 MoonFrame.work.
@@ -23,16 +26,17 @@
 
 namespace theme_moon\privacy;
 
+// phpcs:ignore moodle.Files.MoodleInternal.MoodleInternalNotNeeded
 defined('MOODLE_INTERNAL') || die();
 
+/**
+ * Declares that this theme stores no personal data.
+ */
 class provider implements
-    // This plugin does not store any personal user data.
     \core_privacy\local\metadata\null_provider {
 
     /**
- * Theme Moon component file.
-     * Get the language string identifier with the component's language
-     * file to explain why this plugin stores no data.
+     * Returns the language string identifier explaining why no data is stored.
      *
      * @return  string
      */
