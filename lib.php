@@ -8,11 +8,12 @@
 //
 // Moodle is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle. If not, see <https://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
+//
 /**
  * @package   Theme Moon
  * @author    Moon Framework Team https://moonframe.work
@@ -36,6 +37,7 @@ function theme_moon_get_main_scss_content($theme) {
 }
 
 /**
+ * Theme Moon component file.
  * Serve the files from the theme file areas.
  *
  * @param stdClass $course
