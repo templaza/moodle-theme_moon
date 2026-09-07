@@ -26,7 +26,7 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'theme_moon';
-$plugin->version   = 2026090700;
+$plugin->version   = 2026090701;
 $plugin->requires  = 2022041900;
 $plugin->maturity  = MATURITY_STABLE;
 $plugin->release   = '1.0.2';
