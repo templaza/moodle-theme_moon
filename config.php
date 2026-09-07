@@ -14,7 +14,10 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 //
+
 /**
+ * Theme configuration for theme_moon.
+ *
  * @package   theme_moon
  * @author    Moon Framework Team https://moonframe.work
  * @copyright Copyright (C) 2026 MoonFrame.work.
@@ -28,10 +31,10 @@ $THEME->sheets = [];
 $THEME->editor_sheets = [];
 $THEME->parents = ['boost'];
 $THEME->enable_dock = false;
-$THEME->yuicssmodules = array();
+$THEME->yuicssmodules = [];
 $THEME->requiredblocks = '';
 $THEME->addblockposition = BLOCK_ADDBLOCK_POSITION_FLATNAV;
-$THEME->scss = function($theme) {
+$THEME->scss = function ($theme) {
     return theme_moon_get_main_scss_content($theme);
 };
 $THEME->layouts = utilities::get_layouts($THEME->name);
