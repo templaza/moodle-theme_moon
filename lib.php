@@ -24,7 +24,8 @@ use local_moon\library\helper\utilities;
 use local_moon\library\helper\media;
 
 /**
- * @throws \ScssPhp\ScssPhp\Exception\SassException
+ * @param theme_config $theme
+ * @return string
  */
 function theme_moon_get_main_scss_content($theme) {
     global $CFG;
