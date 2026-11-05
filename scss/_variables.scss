@@ -188,9 +188,9 @@ $displays: none, inline, inline-block, block, table, table-row, table-cell, flex
   --mf-course-index-button-hover-color: #fff;
   --mf-course-index-bg-color: var(--bs-body-bg);
   --mf-course-index-link-color: var(--bs-link-color);
-  --mf-course-index-link-bg-color: transparent;
+  --mf-course-index-link-bg-color: rgba(var(--bs-tertiary-bg-rgb),1);
   --mf-course-index-link-hover-color: var(--bs-link-hover-color);
-  --mf-course-index-link-bg-hover-color: transparent;
-  --mf-course-index-link-bg-active-color: transparent;
+  --mf-course-index-link-bg-hover-color: var(--bs-primary-bg-subtle);
+  --mf-course-index-link-bg-active-color: var(--bs-primary-bg-subtle);
   --mf-course-index-link-active-color: inherit;
 }
