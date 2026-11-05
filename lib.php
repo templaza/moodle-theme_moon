@@ -38,8 +38,17 @@ use local_moon\library\helper\media;
 function theme_moon_get_main_scss_content($theme) {
     global $CFG;
     $scss = utilities::get_moon_scss_variables();
-    $scss .= file_get_contents($CFG->dirroot . '/theme/boost/scss/preset/default.scss');
-    $scss .= utilities::get_moon_css();
+    $scss .= file_get_contents($CFG->dirroot . '/theme/moon/scss/style.scss');
+
+    $version = $CFG->branch;
+    if(isset($version)){
+        if ($version >= 500) {
+            $scss .= '@import "utility";';
+        }else{
+            $scss .= '@import "utility4x";';
+        }
+    }
+
     return $scss;
 }
 

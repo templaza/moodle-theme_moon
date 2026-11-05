@@ -1,0 +1,13 @@
+.style-custom{
+  .list-item-inner{
+    flex-wrap: wrap;
+  }
+  .list-item-info{
+    flex: 1;
+  }
+}
+.custom_icon{
+  .accordion-button::after{
+    display:none;
+  }
+}
