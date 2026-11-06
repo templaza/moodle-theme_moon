@@ -14,14 +14,14 @@
     transition: all 0.3s ease;
     &:hover {
         transform: translateY(-3px);
-        box-shadow: 0 8px 20px rgb(0 0 0 / .2)
+        box-shadow: 0 8px 20px rgb(0 0 0 / .2);
     }
     label {
         font-size: 11px;
         font-weight: 600;
-        color: #63667D!important;
+        color: #63667d;
         margin: 0;
-        line-height: 2.3
+        line-height: 2.3;
     }
     .form-check-input {
         width: 32px;
@@ -29,13 +29,13 @@
         cursor: pointer;
         background-color: #ddd;
         border: none;
-        transition: all 0.3s ease
+        transition: all 0.3s ease;
     }
     .form-check-input:checked {
         background-color: $primary;
     }
     .form-check-input:focus {
-        box-shadow: none
+        box-shadow: none;
     }
 }
 [data-bs-theme="dark"] {

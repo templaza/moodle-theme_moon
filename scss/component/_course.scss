@@ -11,12 +11,14 @@
         padding: 9px 16px;
         width: auto;
         height: auto;
-        &:hover, &:focus {
+        &:hover,
+        &:focus {
             background-color: var(--mf-course-index-button-hover-bg-color);
             color: var(--mf-course-index-button-hover-color);
         }
     }
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         left: 0;
     }
 }
@@ -44,7 +46,8 @@
                 .collapsed-icon, .expanded-icon {
                     margin: 0 15px !important;
                 }
-                &:hover, &:focus {
+                &:hover,
+                &:focus {
                     color: var(--mf-course-index-link-hover-color);
                     background-color: var(--mf-course-index-link-bg-hover-color);
                 }
@@ -60,7 +63,8 @@
                 padding: .5rem .9rem;
                 border-radius: .5rem;
                 flex-grow: 1;
-                &:hover, &:focus {
+                &:hover,
+                &:focus {
                     color: var(--mf-course-index-link-hover-color);
                     background-color: var(--mf-course-index-link-bg-hover-color);
                 }
@@ -91,7 +95,11 @@
     }
 }
 
-#frontpage-available-course-list .coursebox, #frontpage-course-list .coursebox, .course-search-result .coursebox, .course-section .section-item, .page-mycourses .block_myoverview .block-cards {
+#frontpage-available-course-list .coursebox,
+#frontpage-course-list .coursebox,
+.course-search-result .coursebox,
+.course-section .section-item,
+.page-mycourses .block_myoverview .block-cards {
     border-color: var(--bs-border-color);
 }
 body:not(.editing) .activity-item {
@@ -100,7 +108,8 @@ body:not(.editing) .activity-item {
 .btn-icon.icons-collapse-expand {
     background-color: var(--bs-primary-bg-subtle);
 }
-.block .block-cards span.categoryname, .block .block-cards .btn-link {
+.block .block-cards span.categoryname,
+.block .block-cards .btn-link {
     color: var(--bs-body-color);
 }
 
@@ -112,6 +121,6 @@ body:not(.editing) .activity-item {
 
 .course-card {
     .card-footer {
-        background-color: var(--bs-body-bg) !important;
+        background-color: var(--bs-body-bg);
     }
 }

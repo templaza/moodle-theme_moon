@@ -2,7 +2,8 @@
     background-color: var(--mf-header-bg);
 }
 .header-stacked-section {
-    .moon-nav-center-balance, .moon-nav-center {
+    .moon-nav-center-balance,
+    .moon-nav-center {
         .navbar-nav {
             justify-content: center;
         }
@@ -50,7 +51,8 @@
         }
     }
     &.inactive {
-        &:before, >.header-wrap {
+        &:before,
+        >.header-wrap {
             -webkit-animation-name: stickyOutUp;
             animation-name: stickyOutUp;
         }

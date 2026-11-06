@@ -126,9 +126,9 @@ $article-badge-5-bg: #fd7e14 !default;
 $article-badge-6-bg: #20c997 !default;
 
 // Tags
-$tag-bg: #FCFCFC;
+$tag-bg: #fcfcfc;
 $tag-font-size: 14px;
-$tag-text-color: #8E8E8E;
+$tag-text-color: #8e8e8e;
 $tag-padding: 4px 8px;
 $tag-icon: \f02c;
 $tag-icon-color: $primary;
@@ -180,15 +180,14 @@ $displays: none, inline, inline-block, block, table, table-row, table-cell, flex
     --mf-mobilemenu-menu-icon-color: var(--bs-link-color);
     --mf-mobilemenu-menu-active-icon-color: var(--bs-link-hover-color);
     --mf-contact-info-icon-color: var(--bs-link-color);
-    --mf-offcanvas-link-color: var(--bs-link-color);
     --mf-offcanvas-link-hover-color: var(--bs-link-hover-color);
-    --mf-course-index-button-bg-color: rgba(var(--bs-primary-rgb),1);
-    --mf-course-index-button-hover-bg-color: rgba(var(--bs-primary-rgb),.8);
+    --mf-course-index-button-bg-color: rgba(var(--bs-primary-rgb), 1);
+    --mf-course-index-button-hover-bg-color: rgba(var(--bs-primary-rgb), 0.8);
     --mf-course-index-button-color: #fff;
     --mf-course-index-button-hover-color: #fff;
     --mf-course-index-bg-color: var(--bs-body-bg);
     --mf-course-index-link-color: var(--bs-link-color);
-    --mf-course-index-link-bg-color: rgba(var(--bs-tertiary-bg-rgb),1);
+    --mf-course-index-link-bg-color: rgba(var(--bs-tertiary-bg-rgb), 1);
     --mf-course-index-link-hover-color: var(--bs-link-hover-color);
     --mf-course-index-link-bg-hover-color: var(--bs-primary-bg-subtle);
     --mf-course-index-link-bg-active-color: var(--bs-primary-bg-subtle);
