@@ -1,4 +1,5 @@
-.container, .container-fluid {
+.container,
+.container-fluid {
     @media (min-width: 640px) {
         --bs-gutter-x: 2rem;
     }
@@ -9,14 +10,15 @@
 .moon-layout {
     #page.drawers {
         margin: 0;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+        padding-left: 0;
+        padding-right: 0;
         div[role="main"] {
             padding-left: 0;
             padding-right: 0;
         }
     }
-    .drawer-left, .drawer-right {
+    .drawer-left,
+    .drawer-right {
         top: 0;
         height: 100vh;
     }
@@ -59,7 +61,8 @@
                     }
                     &.active {
                         background-color: var(--bs-nav-tabs-link-active-bg);
-                        &:hover, &:focus {
+                        &:hover,
+                        &:focus {
                             background-color: var(--bs-nav-tabs-link-active-bg);
                         }
                     }

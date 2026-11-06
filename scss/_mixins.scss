@@ -145,7 +145,8 @@
                 @include box-hover-shadow-content($color);
             }
         }
-    } @else {
+    }
+    @else {
         @include box-hover-shadow-content($color);
     }
 }
