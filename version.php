@@ -26,10 +26,10 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'theme_moon';
-$plugin->version   = 2026110500;
+$plugin->version   = 2026110600;
 $plugin->requires  = 2022041900;
 $plugin->maturity  = MATURITY_STABLE;
-$plugin->release   = '1.0.3';
+$plugin->release   = '1.0.4';
 $plugin->dependencies = [
     'local_moon' => 2026081800,
 ];
