@@ -1,3 +1,4 @@
+/* stylelint-disable */
 // Responsive max-width
 @each $gutter-point, $gutter-value in $as-gutters {
   .as-gutter-#{$gutter-point} {

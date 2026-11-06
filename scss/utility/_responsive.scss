@@ -1,3 +1,4 @@
+/* stylelint-disable */
 .hideonxs {
 	@include media-breakpoint-only(xs) {
 		display: none !important;

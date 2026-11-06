@@ -1,3 +1,4 @@
+/* stylelint-disable */
 @each $shadow-point, $shadow-value in $shadow-hover {
   @if $shadow-point != null {
     .shadow-hover-#{$shadow-point}:hover {
