@@ -121,17 +121,17 @@ $enable-smooth-scroll: not $behatsite !default;
 //
 
 body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .navbar {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, .08);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .08);
 }
 
 // Rounded user pictures
 .userpicture {
-  border-radius: 50%;
+    border-radius: 50%;
 }
 
 // Reset the default styling back to the bootstrap defaults for
@@ -142,16 +142,16 @@ $info-outline:    #1f7e9a;
 $warning-outline: #a6670e;
 
 .btn-outline-secondary {
-  @include button-outline-variant($gray-600);
-  border-color: $gray-600;
+    @include button-outline-variant($gray-600);
+    border-color: $gray-600;
 }
 
 .btn-outline-info {
-  @include button-outline-variant($info-outline);
+    @include button-outline-variant($info-outline);
 }
 
 .btn-outline-warning {
-  @include button-outline-variant($warning-outline);
+    @include button-outline-variant($warning-outline);
 }
 
 @import "variables";

@@ -1,11 +1,11 @@
 .moodle-dialogue-base .moodle-dialogue-wrap {
-  background-color: var(--bs-body-bg);
-  border-color: var(--bs-border-color);
-  .file-picker .fp-content {
     background-color: var(--bs-body-bg);
-  }
+    border-color: var(--bs-border-color);
+    .file-picker .fp-content {
+        background-color: var(--bs-body-bg);
+    }
 }
 [data-region=right-hand-drawer].drawer {
-  top: 0;
-  height: 100vh;
+    top: 0;
+    height: 100vh;
 }

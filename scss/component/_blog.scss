@@ -1,19 +1,19 @@
 .blog_entry .content {
-  margin: 0;
+    margin: 0;
 }
 .forumpost {
-  border-color: var(--bs-border-color);
-  border-radius: 10px;
-  padding: 40px 30px;
-  .subject {
-    font-size: 1.5rem;
-  }
-  .row {
-    .topic {
-      margin-left: 0;
+    border-color: var(--bs-border-color);
+    border-radius: 10px;
+    padding: 40px 30px;
+    .subject {
+        font-size: 1.5rem;
     }
-    .left {
-      width: 58px;
+    .row {
+        .topic {
+            margin-left: 0;
+        }
+        .left {
+            width: 58px;
+        }
     }
-  }
 }
